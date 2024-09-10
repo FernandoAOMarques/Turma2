@@ -18,18 +18,16 @@ const Header = () => {
             <input type="text" placeholder='Pesquisa produto...' />
             <a href="/">Cadastre-se</a>
             <button>Entrar</button>  
-            
-         {/*<Link to={'/'}>
-            <img src={Cart} alt="Carrinho"/>
-            </Link>*/}
+            <Link to="/carrinho"> <img src={Cart} alt="carrinho" /> </Link>  
+         
                
 
         </div>
         <nav className='navbar'>
-        {/*<Link to={'/'}>Home</Link>
+        <Link to={'/'}>Home</Link>
         <Link to={'/about'}>About</Link>
         <Link to={'/services'}>Services</Link>
-        <Link to={'/contact'}>Contact</Link>*/}
+        <Link to={'/contact'}>Contact</Link>
         </nav>
       </header>
     </div>

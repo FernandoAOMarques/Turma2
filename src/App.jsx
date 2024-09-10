@@ -1,8 +1,10 @@
+
 import React from 'react'
-import Header from './Components/Header/Header'
-import Footer from './Components/Footer'
+import Footer from './Components/Footer/Footer'
 import Rotas from './Components/Rotas/Rotas'
 import { BrowserRouter } from 'react-router-dom'
+import Header from './Components/Header/Header'
+
 
 
 
