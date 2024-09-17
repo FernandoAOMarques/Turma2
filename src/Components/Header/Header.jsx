@@ -14,7 +14,7 @@ const Header = () => {
       <header className='header' >
         
         <div className='navbar1' >
-        <Logo />
+        <Logo/>
             <input type="text" placeholder='Pesquisa produto...' />
             <a href="/">Cadastre-se</a>
             <button>Entrar</button>  
