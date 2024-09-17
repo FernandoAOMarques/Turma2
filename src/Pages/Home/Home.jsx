@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Carrossel />
-      <ProdutosDestaque/>
+      {/* <ProdutosDestaque/> */}
     </div>
   )
 }
