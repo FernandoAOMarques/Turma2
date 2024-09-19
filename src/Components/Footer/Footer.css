@@ -7,3 +7,23 @@ footer{
     width: 307px;
     height: 78px;
 }
+.midiaSocial{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.midiaSocial li{
+    margin: 0 17.5px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+ }
+ 
+ a:hover {
+     color: #999;
+ }
+ 
+

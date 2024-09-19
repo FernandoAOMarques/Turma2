@@ -1,7 +1,7 @@
 import React from 'react'
 import Camisa from '../../assets/star-wars.png'
 import Tenis from '../../assets/Mask group (1).png'
-import Head from '../../assets/d9db11953a2d185d37246bb1f500c957 1.png'
+import Head from '../../assets/headgrande.png'
 import { Link } from 'react-router-dom'
 
 
