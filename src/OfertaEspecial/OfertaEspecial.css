@@ -1,0 +1,33 @@
+.container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.laye{
+    width: 573px;
+    height: 330px;
+    top: 2852px;
+    left: 52px;  
+    margin-right: 30px;
+}
+.btn{
+    background: #C92071;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.ofertaE{
+color: #C92071;
+font-family: "Inter", sans-serif; 
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.75px;
+text-align: left;
+font-weight: bold;
+
+}

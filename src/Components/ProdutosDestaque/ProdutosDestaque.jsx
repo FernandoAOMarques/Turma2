@@ -3,6 +3,7 @@ import Camisa from '../../assets/star-wars.png'
 import Tenis from '../../assets/Mask group (1).png'
 import Head from '../../assets/headgrande.png'
 import { Link } from 'react-router-dom'
+import './ProdutosDestaque.css'
 
 
 const ProdutosDestaque = () => {
@@ -28,7 +29,7 @@ const ProdutosDestaque = () => {
   ]
   return (
   <div id='cards'>
-    {card.map((produto, index) => {
+    {card.map((produto, index) => (
     <div key={index} className="card-content">
       <div className="discount-card">
         <h2 className="discount-title">{produto.promo}% OFF</h2>
@@ -36,10 +37,10 @@ const ProdutosDestaque = () => {
         <Link to='/produtos' type="button" className="discount-button">Comprar</Link>   
       </div>
       <div className="card-image">
-        <img src={produto.img} alt={produto.nome} />
+        <img className='destaque' src={produto.img} alt={produto.nome} />
       </div>
     </div>  
-  })} 
+  ))} 
   </div>
   )
 }
