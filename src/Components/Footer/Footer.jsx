@@ -21,6 +21,7 @@ const Footer = () => {
   ];
   return (
     <footer>
+     
       <div className="logoFooter">
         <Logo cor="branca" />
       </div>
@@ -45,6 +46,7 @@ const Footer = () => {
         <Informacoes title="Informação" info={list1} />
         <Informacoes title="Categorias" info={list2} />
       </div>
+      
       <div style={{width: 1240, height: 1, top: 384, left: 100, gap: 0, opacity: 0.3, background:'#fff'}}></div>
       <div>
         <span>&copy; {new Date().getFullYear()} Digital College </span>

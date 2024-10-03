@@ -1,38 +1,23 @@
 import React from 'react'
-import Tenis from '../../assets/Tenis_Promo.png'
 import './ProdutosEmAlta.css'
 
-function ProdutosEmAlta () {
+function ProdutosEmAlta ({listaProdutos}) {
+   
+
+   
+   
   return (
-  
-      <section>
-        <div className='card-off1'>
-          <p className='card-sale' >30% OFF</p>
-          <img className='card-image' src= {Tenis} alt="Tenis" />
-          <p className='card-text-tenis' >Tênis</p>
-          <h2 className='card-title'>K-Swis V8 - Masculino <br />$200 $100</h2>
-        </div>
-        <div className='card-off1'>
-          <p className='card-sale' >30% OFF</p>
-          <img className='card-image' src= {Tenis} alt="Tenis" />
-          <p className='card-text-tenis' >Tênis</p>
-          <h2 className='card-title'>K-Swis V8 - Masculino <br />$200 $100</h2>
-        </div>
-          
-        <div className='card'>
-            <p className='card-sale' ></p>
-            <img className='card-image' src= {Tenis} alt="Tenis" />
-            <p className='card-text-tenis' >Tênis</p>
-            <h2 className='card-title'>K-Swis V8 - Masculino <br />$200 $100</h2>
-        </div>
-        <div className='card'>
-            <p className='card-sale' ></p>
-            <img className='card-image' src= {Tenis} alt="Tenis" />
-            <p className='card-text-tenis' >Tênis</p>
-            <h2 className='card-title'>K-Swis V8 - Masculino <br />$200 $100</h2>
-        </div>
-      </section>
-  )
+      <>
+          {listaProdutos.map((produto, index) => (
+            <div key={index} className='card-off1'>
+                <p className='card-sale' > {produto.desconto} </p>
+                <img className='card-image' src= {produto.img} alt={produto.categoria} />
+                <p className='card-text-tenis' > {produto.categoria} </p>
+                <h2 className='card-title'> {produto.nomeDoProduto} </h2>
+                <span className='preco'> {produto.preco} </span>
+                <span className='precoDesconto'> {produto.precoDesconto} </span>
+              </div>)) }        
+      </> )
 }
 
 export default ProdutosEmAlta
