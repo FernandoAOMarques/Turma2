@@ -32,7 +32,7 @@ const ProdutosDestaque = () => {
     {card.map((produto, index) => (
     <div key={index} className="card-content">
       <div className="discount-card">
-        <h2 className="discount-title">{produto.promo}% OFF</h2>
+        <span className="discount-title">{produto.promo}% OFF</span>
         <p className="discount-description">{produto.text}</p>
         <Link to='/produtos' type="button" className="discount-button">Comprar</Link>   
       </div>

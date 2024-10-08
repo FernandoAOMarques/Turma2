@@ -1,11 +1,12 @@
 import React from "react";
 import Tenis from "./../assets/Laye.png";
 import './OfertaEspecial.css'
+import elipse from '../assets/Ellipse.png'
 
 const OfertaEspecial = () => {
   return (
-    <div className="container">
-      <div className="row-50"> <img className='laye' src= {Tenis} alt="Tenis" />
+    <div className="containerOferta">
+      <div className="row-50"> <img className='img1' src= {Tenis} alt="Tenis" /> <img className="img2" src={elipse} alt="elipse" />
       </div>
       <div className="ofertaE">
         <p >Ofertas especial</p>

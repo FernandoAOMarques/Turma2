@@ -92,7 +92,7 @@ const produtos = [
  const CardContexto = createContext()
 
 const ContextoImagem = ({children}) => {
-  const [produto, setProduto] = useState(produto);
+  const [produto, setProduto] = useState(produtos);
   return (
     <div>
       <CardContexto.Provider value={{produto, setProduto}} >
@@ -103,4 +103,4 @@ const ContextoImagem = ({children}) => {
   )
 }
 
-export default {CardContexto, ContextoImagem}
+export {CardContexto, ContextoImagem}

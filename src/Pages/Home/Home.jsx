@@ -7,6 +7,7 @@ import ColecoesEmDestaque2 from '../../Components/ColecoesEmDestaque2/ColecoesEm
 import OfertaEspecial from '../../OfertaEspecial/OfertaEspecial.jsx'
 import { useContext } from 'react'
 import { CardContexto } from '../../Components/ContextoImagem/ContextoImagem.jsx'
+import './Home.css'
 
 const Home = () => {
   const {produto, setProduto} = useContext(CardContexto);
@@ -16,7 +17,7 @@ const Home = () => {
       stop[i] = produto[i]
     }
   return (
-    <div>
+    <div className='style'>
       
       <Carrossel />
       <Section title={'Colecoes em Destaque'} >

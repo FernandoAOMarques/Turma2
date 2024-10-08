@@ -1,5 +1,30 @@
-#center {
+.sectionPrincipal{
+    background-color: #F9F8FE;
+    
+}
+
+.sectionTitle .left {
+font-family: "Inter", sans-serif;
+font-size: 24px;
+/* font-weight: 700; */
+/* line-height: 38px; */
+letter-spacing: 0.75px;
+margin-left: 135px;
+margin-top: 38px;
+margin-bottom: 20px;
+width: 283px;
+height: 38px;
+border: 1px solid red;
+color: #474747;
+text-align: left;
+
+}
+
+.center {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
+    color: #474747;
 }

@@ -1,38 +1,59 @@
 #cards{
     display: flex;
     justify-content: center;
-    padding: 96px 100px;
+    padding: 0px 100px;
     gap: 12px;
    
 }
 .card-content{
     display: flex;
-    width: 33%;
+    width: 405px;
   font-family: "Inter";
    background-color: #D8E3F2;
+}
+.discount-card{
+    width: 405px;
+    height: 251px;
+    border-radius: 8px;
+    padding-top: 34px;
+  
 }
 .card-image{
     background-position: cover;
     display: flex;
     justify-content: end;
+}
+
+.destaque{ 
     width: 242px;
     height: 251px;
 }
-
-/* .content {
-    display: flex;
-    flex-wrap: wrap;
-    
-    margin-left: 40px;
-    
-} */
-  
 .discount-title {
     margin-left: 30px;
-    margin-top: 76px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    width: 96px;
+    height: 32px;
+    /* top: 1005px;
+    left: 130px; */
+    padding: 5px 15px 5px 15px;
+    border-radius: 29px;
+    background: #E7FF86;
 }
-  
+.discount-description{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    width: 172px;
+    height: 72px;
+    margin-left: 30px;
+    line-height: 36px;
+    position: absolute;
+    margin-top: 10px;
+}
 .discount-button {
+    position: absolute;
     background-color: #F5F5F5;
     border: none;
     padding: 13px 44px;
@@ -40,11 +61,13 @@
     font-size: 16px;
     border-radius: 8px;
     text-decoration: none;
-    margin-left: 30px;
-    margin-top: -5px;
+    margin-left: -100px;
+    margin-top: 135px;
     font-family: Inter;
     color: #C92071;
     font-weight: 700;
+    height: 48px;
+    width: 153px;
 }
   
 
