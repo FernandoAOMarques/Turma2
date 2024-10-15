@@ -9,7 +9,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "30% OFF",
@@ -17,7 +17,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -25,7 +25,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -33,7 +33,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -41,7 +41,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -49,7 +49,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -57,7 +57,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -65,7 +65,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -73,7 +73,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -81,7 +81,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -89,7 +89,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -97,7 +97,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -105,7 +105,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -113,7 +113,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -121,7 +121,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
   {
     desconto: "",
@@ -129,7 +129,7 @@ const produtos = [
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
     precoDesconto: "$100",
-    categoria: "Tenis"
+    categoria: "Tênis"
   },
 ];
 

@@ -19,7 +19,7 @@ function ProdutosEmAlta({ listaProdutos }) {
           <p className="card-text-tenis"> {produto.categoria} </p>
           <h2 className="card-title"> {produto.nomeDoProduto} </h2>
           <div className="desc-flex">
-          <span className="preco"> {produto.preco} </span>
+          <span className="preco"> {produto.preco}  </span>
           <span className="precoDesconto"> {produto.precoDesconto} </span>
           </div>
         </div>
