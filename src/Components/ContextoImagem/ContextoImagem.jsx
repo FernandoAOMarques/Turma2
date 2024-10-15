@@ -3,91 +3,135 @@ import { createContext, useState } from 'react'
 import Tenis from '../../assets/Tenis_Promo.png'
 
 const produtos = [
-  { desconto: "30% OFF",
+  {
+    desconto: "30% OFF",
     img: Tenis,
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
-    precoDesconto: "$100"
-  },
-  { desconto: "30% OFF",
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },   
-   {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    {
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
+    precoDesconto: "$100",
+    categoria: "Tenis"
   },
   {
+    desconto: "30% OFF",
     img: Tenis,
     nomeDoProduto: "K-Swis V8 - Masculino",
     preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
-  },    { 
-    img: Tenis,
-    nomeDoProduto: "K-Swis V8 - Masculino",
-    preco: "$200",
-    precoDesconto: "$100"
+    precoDesconto: "$100",
+    categoria: "Tenis"
   },
- ]
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+  {
+    desconto: "",
+    img: Tenis,
+    nomeDoProduto: "K-Swis V8 - Masculino",
+    preco: "$200",
+    precoDesconto: "$100",
+    categoria: "Tenis"
+  },
+];
 
  const CardContexto = createContext()
 
