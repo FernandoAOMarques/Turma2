@@ -36,8 +36,8 @@ const ProdutosDestaque = () => {
         <p className="discount-description">{produto.text}</p>
         <Link to='/produtos' type="button" className="discount-button">Comprar</Link>   
       </div>
-      <div className="card-image">
-        <img className='destaque' src={produto.img} alt={produto.nome} />
+      <div className="destaque-imagem">
+        <img className='imagem' src={produto.img} alt={produto.nome} />
       </div>
     </div>  
   ))} 

@@ -8,7 +8,8 @@
 .card-content{
     display: flex;
     width: 405px;
-  font-family: "Inter";
+    height: 251px;
+    font-family: "Inter";
    background-color: #D8E3F2;
 }
 .discount-card{
@@ -16,15 +17,12 @@
     height: 251px;
     border-radius: 8px;
     padding-top: 34px;
-  
 }
-.card-image{
-    background-position: cover;
-    display: flex;
-    justify-content: end;
+.destaque-imagem{
+    height: 251px;
 }
-
-.destaque{ 
+.imagem{ 
+    background-color: #D8E3F2;
     width: 242px;
     height: 251px;
 }
@@ -34,14 +32,11 @@
     margin-bottom: 10px;
     width: 96px;
     height: 32px;
-    /* top: 1005px;
-    left: 130px; */
     padding: 5px 15px 5px 15px;
     border-radius: 29px;
     background: #E7FF86;
 }
 .discount-description{
-    font-family: Inter;
     font-size: 32px;
     font-weight: 700;
     text-align: left;
